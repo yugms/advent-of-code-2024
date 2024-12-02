@@ -3,7 +3,7 @@ from collections import Counter
 column_1 = []
 column_2 = []
 
-with open('../data/day1.txt', 'r') as file:
+with open('./data/day1.txt', 'r') as file:
     for line in file:
         numbers = line.split() # splits the line
         numbers = [int(num) for num in numbers] # turns into integer
