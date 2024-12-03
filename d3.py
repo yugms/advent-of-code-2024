@@ -1,0 +1,1 @@
+import re; print("challenge 1: ", sum([int(re.findall(r"\d+", result)[0])*int(re.findall(r"\d+", result)[1]) for result in re.findall(r"mul\(\d{1,3},\d{1,3}\)", open("./data/day3.txt", "r").read())])) # * challenge 1
